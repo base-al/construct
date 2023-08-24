@@ -5,7 +5,7 @@ import 'package:path/path.dart';
 
 class HtmlView implements View {
   @override
-  String render(String filename, {Map<String, dynamic>? params}) {
+  String render(String? filename, {Map<String, dynamic>? params}) {
     var filePath = join('app', 'views', filename);
     var file = File(filePath);
 
