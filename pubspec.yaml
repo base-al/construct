@@ -1,7 +1,7 @@
 name: construct
 description: A  Dart mvc framework.
-version: 1.0.0
- # repository: https://github.com/my_org/my_repo
+version: 0.0.1
+repository: https://github.com/base-al/construct.git
 
 environment:
   sdk: ^3.0.6
